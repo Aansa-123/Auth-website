@@ -3,7 +3,7 @@ import { store } from '../app/store';
 import { setAccessToken, clearSession } from '../features/auth/authSlice';
 
 const api = axios.create({
-  baseURL: "",
+  baseURL: "https://auth-website-backend.vercel.app",
   withCredentials: true
 });
 
